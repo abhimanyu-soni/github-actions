@@ -25,6 +25,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: check version of docker
-       run: docker --version
+      - name: check the version of docker
+      - run: docker --version
    
