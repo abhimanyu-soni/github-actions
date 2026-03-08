@@ -22,7 +22,7 @@ jobs:
 
 # This job is to check the details 
   details:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: check python and docker version
         run: docker --version && python --version
