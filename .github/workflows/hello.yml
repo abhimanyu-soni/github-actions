@@ -21,9 +21,5 @@ jobs:
         run: echo "Hello $USER"
 
 # This job is to check the details 
-   details:
-     runs-on: ubuntu-latest
-     steps:
-       - name: check the version of docker and python
-         run: docker --version && python --version
+  
    
