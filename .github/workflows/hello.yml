@@ -21,11 +21,17 @@ jobs:
         run: echo "Hello $USER"
 
 # This job is to check the details 
-  details:
+  version_details:
     runs-on: ubuntu-latest
     steps:
       - name: check python and docker version
         run: docker --version && python --version
+
+  user_detail:
+    runs-on: macos-latest
+    steps:
+      - name: check the user
+        run: whoami
   
      
    
