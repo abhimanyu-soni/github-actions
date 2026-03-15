@@ -4,7 +4,7 @@ name: CICD
 #manual click deliver workflow whenever user needs
 on:
  workflow_dispatch: 
-
+# every job needs seperator runner, its called parallelism
 jobs:
 
   code:
