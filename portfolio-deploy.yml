@@ -1,4 +1,4 @@
-name: protfolio
+name: portfolio
 on:
 push:
    branches: [main]
