@@ -1,0 +1,22 @@
+name: protfolio
+on:
+push:
+   branches: [main]
+permissions:
+jobs:
+   deploy:
+      runs-on: ubuntu-latest
+      steps:
+      # get access to your portfolio code via a pre-build actions
+         - name: checlout code
+           uses: actions/checkout@v4
+      # setup github pages
+         - name: setup github pages
+           uses: actions/configure
+      # static code artifacts
+         - name: upload static files
+           uses: actions/
+      # deploy to github pages
+         - name: deploy to github pages
+           uses: actions/deploy-pages@v4
+      
